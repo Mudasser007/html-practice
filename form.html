@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tag</title>
+  </head>
+  <body>
+    <!--form action="https://www.google.com/search" method="get" target="_blank">
+      <input type="text" name="q" placeholder="enter search text" />
+      <input type="submit" />
+    </form> -->
+    <form>
+        <form action="http://localhost:3004/api?v1/user" method="post">
+        First Name <input type="text" name="first name" maxlength="25" required/><br />
+        Last name <input type="text" name="last name" maxlength="25" required/><br />
+        User ID<input type="text" name="user_id" /> <br />
+        Password: <input type="password" name="password"/> <br />
+        Mobile Number: <input type="number" /> <br />
+        Email ID: <input type="email" /> <br />
+        Address : <input type="address" /> <br />
+        Date : <input type="date" />
+        Time : <input type="datetime-local" /> <br />
+        Potential:<input type="range" name="Potential" /> <br />
+        
+        Gender <br />
+        <input type="radio" name="gender" value="male" /> Male <br />
+        <input type="radio" name="gender" value="female" /> Female <br />
+        <input type="radio" name="gender" value="others" />Others <br />
+            
+          Description: <br />
+        <textarea rows="5" cols="50" name="description">
+            Enter Description Area
+        </textarea>
+        <br />
+        <input type="Submit" /><input type="reset" /> <br />
+        <input type="image" />
+        <input type="hidden" />
+
+     Select the Subject   
+<select name="dropdown">
+  <option >India</option>
+  <option>USA</option>
+  <option>China</option>
+  <option>Japan</option>
+  <option>Russia</option>
+  <option selected>Saudi Arabia</option>
+</select>
+<br />
+<br />
+Select the Subject
+<select name="Select Subjects" multiple>
+  <option selected>Physics</option>
+  <option selected> Chemistry</option>
+  <option>Maths</option>
+  <option>Biology</option>
+  <br />
+  <br />
+</select>
+<marquee direction="right"
+scrolldelay="50"
+scrollamount="100"
+behavior="alternate"
+> 
+One or more images shown in this website are very cool to show in this way
+<img src="images/Flowers.jpg" height="100" width="100" />
+</marquee>
+
+    <form>
+</body>
+</html>
